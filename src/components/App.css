@@ -1,0 +1,15 @@
+.target-section {
+  height: 100vh;
+  background: #cceeff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    background 1s ease,
+    color 1s ease;
+}
+
+.target-section.highlight {
+  background: pink;
+  color: magenta;
+}
