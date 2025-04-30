@@ -68,7 +68,7 @@ import { useCallback, useMemo, useState } from 'react';
 import ListingFilters from '@/components/ListingFilters';
 import ListingList from '@/components/ListingList';
 import { Button, Separator, Spinner } from '@/components/ui';
-import useFetch from '@/hooks/useFetch';
+import useFetch from '/src/hooks/useFetch';
 
 const HomePage = () => {
   const [filters, setFilters] = useState({
